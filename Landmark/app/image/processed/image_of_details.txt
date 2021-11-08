@@ -1,0 +1,13 @@
+Input:/app/image/image.jpg
+Input full path:/app/image/image.jpg
+Camera parameters:150.391,150.391,72.5,90
+Output HOG:image.hog
+Output image:image.jpg
+Output aligned directory:image_aligned
+Output csv:image.csv
+Gaze: 1
+AUs: 1
+Landmarks 2D: 1
+Landmarks 3D: 1
+Pose: 1
+Shape parameters: 1
