@@ -2699,3 +2699,259 @@ Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
   + Squared l2 distance between representations: 1.974
 > Processing time: 0m2s
 
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 14:48   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.187
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 14:50   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.700
+> Processing time: 0m1s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 14:56   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.311
+> Processing time: 0m1s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 14:58   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.784
+> Processing time: 0m1s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 15:09   
+/////////////////////////////////////////////////
+> Processing time: 0m1s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 15:15   
+/////////////////////////////////////////////////
+> Processing time: 0m1s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 15:16   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.718
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 15:17   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.548
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 15:17   
+/////////////////////////////////////////////////
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 16:09   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 0.177
+> Processing time: 0m1s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 16:12   
+/////////////////////////////////////////////////
+> Processing time: 0m1s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 16:13   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.816
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 16:13   
+/////////////////////////////////////////////////
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 16:42   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.865
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 16:44   
+/////////////////////////////////////////////////
+> Processing time: 0m1s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 16:48   
+/////////////////////////////////////////////////
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 17:09   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.921
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 17:18   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.866
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 17:33   
+/////////////////////////////////////////////////
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 17:50   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.013
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 17:51   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.889
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 17:52   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.811
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 17:56   
+/////////////////////////////////////////////////
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:02   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.046
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:03   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.051
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:06   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.814
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:09   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.006
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:10   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.947
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:12   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.133
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:14   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.029
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:15   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.960
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:16   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.043
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:19   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.971
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:19   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.018
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:20   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.888
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:21   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 1.972
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:25   
+/////////////////////////////////////////////////
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:38   
+/////////////////////////////////////////////////
+Comparing /app/images/images/image1.jpg with /app/images/images/image2.jpg.
+  + Squared l2 distance between representations: 2.074
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:52   
+/////////////////////////////////////////////////
+> Processing time: 0m1s
+
+/////////////////////////////////////////////////
+            Wed Nov 10, 2021 18:57   
+/////////////////////////////////////////////////
+> Processing time: 0m1s
+
