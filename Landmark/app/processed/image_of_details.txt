@@ -1,6 +1,6 @@
 Input:/app/image/image.jpg
 Input full path:/app/image/image.jpg
-Camera parameters:150.391,150.391,72.5,90
+Camera parameters:1895.83,1895.83,720,1280
 Output csv:image.csv
 Gaze: 0
 AUs: 0
