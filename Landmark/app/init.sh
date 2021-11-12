@@ -13,7 +13,7 @@ echo "hola"
 #clear
 #cp /app/scripts/compare.py /root/openface/demos/compare.py
 echo "--------------------------------------"
-echo " Image Comparison App"
+echo " Image Landmark Detection"
 echo "--------------------------------------"
 
 if which php >/dev/null; then

@@ -4,7 +4,8 @@
   $json = file_get_contents('php://input');
   $data = json_decode($json); 
   $img_base64 = $data->image;
-  $img_file = fopen("/app/image/image.jpg", "w+");
+  $img_path = '/app/image/image.jpg';
+  $img_file = fopen($img_path, "w+");
   fwrite($img_file, base64_decode($img_base64));
   fclose($img_file);
 
@@ -18,7 +19,7 @@
   }
   $result = findLandmarks();
   
-  $image = imagecreatefromstring(file_get_contents("/app/image/image.jpg"));
+  $image = imagecreatefromstring(file_get_contents($img_path));
   $csv = fopen("/app/image/processed/image.csv", "r");
 
   // if ($csv !== FALSE) {
@@ -28,7 +29,7 @@
     fclose($csv);
   // }
 
-  list($width, $height) = getimagesize('/app/image/image.jpg');
+  list($width, $height) = getimagesize($img_path);
 
   // echo "width: $width <br/> height: $height";
   // $white= imagecolorallocate($image, 242, 242, 242);
@@ -61,8 +62,8 @@
   //     echo "$line2[$i] ";
   //   }
    
-
-  imagepng($image, '/app/image/image2.jpg');
-  $base64 = base64_encode(file_get_contents('/app/image/image2.jpg'));
+  $new_img_path = '/app/image/image2.jpg';
+  imagepng($image, $new_img_path);
+  $base64 = base64_encode(file_get_contents($new_img_path));
   echo json_encode($base64);
 ?>
