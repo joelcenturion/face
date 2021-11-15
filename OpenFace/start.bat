@@ -1,1 +1,1 @@
-docker run -v C:\Users\bypar\Desktop\face\OpenFace/scripts:/app -p 8080:8080 --network="openfaceNet" --name bamos -t -i bamos/openface bash "./app/init.sh"
+docker run -v C:\Users\bypar\Desktop\face\OpenFace/scripts:/app -p 8080:8080 --network="openfaceNet" --rm --name bamos -t -i bamos/openface bash "./app/init.sh"
