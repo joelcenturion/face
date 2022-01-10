@@ -4,9 +4,9 @@ startWebServer(){
     cd /app/
     echo "------------------------------------------"
     echo "Open the browser on host machine and navigate to:"
-    echo "http://localhost:8081/"
+    echo "http://localhost:8001/"
     echo "------------------------------------------"
-    php -S 0.0.0.0:8081
+    php -S 0.0.0.0:8001
    
 }
 echo "hola"
