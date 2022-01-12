@@ -1,7 +1,23 @@
 <?php
 // header('Content-type: text/plain');
 
-function portrait_image($file){
+function resize_image($file){	
+	$src = portrait($file);
+	
+	$width = imagesx($src);
+	$height = imagesy($src);
+	$r = $width/$height;
+	$new_height = 180;
+	$new_width = round($r*$new_height);
+	
+	$dst = imagecreatetruecolor($new_width, $new_height);
+	imagecopyresampled($dst, $src, 0, 0, 0, 0, $new_width, $new_height, $width, $height);
+	
+	imagejpeg($dst, $file, 100);
+
+}
+
+function portrait($file){
 	$info = getimagesize($file);
 	
 	if ($info['mime'] == 'image/jpeg' || $info['mime'] == 'image/jpg')
@@ -27,7 +43,7 @@ function portrait_image($file){
 		default;
 	}
 	
-	imagejpeg($src, $file, 100);
+	return $src;
 }
 
 $valid_passwords = array ("admin" => "1-bypersoft.");
@@ -59,10 +75,10 @@ if (!$validated) {
   $img_file = fopen($img_path, "w+");
   fwrite($img_file, base64_decode($img_base64));
   
-  portrait_image($img_path);
-  
+  resize_image($img_path);
   
   fclose($img_file);
+
   function findLandmarks($img_path, $newFolder){
     $command = "
     cd $newFolder;
@@ -128,6 +144,6 @@ if (!$validated) {
   $new_img_path = "$newFolder/image2.jpg";
   imagepng($image, $new_img_path);
   $base64 = base64_encode(file_get_contents($new_img_path));
-  //removeDir($newFolder, $new_img_path, $img_path);
+  removeDir($newFolder, $new_img_path, $img_path);
   echo json_encode($base64);
 ?>

@@ -1,35 +1,6 @@
 <?php
 // header('Content-type: text/plain');
 
-function portrait_image($file){
-	$info = getimagesize($file);
-	
-	if ($info['mime'] == 'image/jpeg' || $info['mime'] == 'image/jpg')
-			{$src = imagecreatefromjpeg($file);}
-	elseif ($info['mime'] == 'image/gif') 
-			{$src = imagecreatefromgif($file);}
-	elseif ($info['mime'] == 'image/png') 
-			{$src = imagecreatefromjpeg($file);}
-			
-	$exif = exif_read_data($file);
-	$orientation = $exif['Orientation'];
-	
-	switch ($orientation){
-		case 3:
-			$src = imagerotate($src, 180, 0);
-			break;
-		case 6:
-			$src = imagerotate($src, -90, 0);
-			break;
-		case 8:
-			$src = imagerotate($src, 90, 0);
-			break;
-		default;
-	}
-	
-	imagejpeg($src, $file, 100);
-}
-
 $valid_passwords = array ("admin" => "1-bypersoft.");
 $valid_users = array_keys($valid_passwords);
 
@@ -58,11 +29,9 @@ if (!$validated) {
   $img_path = "$newFolder/image.jpg";
   $img_file = fopen($img_path, "w+");
   fwrite($img_file, base64_decode($img_base64));
-  
-  portrait_image($img_path);
-  
-  
   fclose($img_file);
+
+
   function findLandmarks($img_path, $newFolder){
     $command = "
     cd $newFolder;
@@ -128,6 +97,6 @@ if (!$validated) {
   $new_img_path = "$newFolder/image2.jpg";
   imagepng($image, $new_img_path);
   $base64 = base64_encode(file_get_contents($new_img_path));
-  //removeDir($newFolder, $new_img_path, $img_path);
+  removeDir ($newFolder, $new_img_path, $img_path);
   echo json_encode($base64);
 ?>

@@ -2611,3 +2611,261 @@ Comparing /app/images/images/1641581083/image1.jpg with /app/images/images/16415
   + Squared l2 distance between representations: 0.550
 > Processing time: 0m3s
 
+/////////////////////////////////////////////////
+            Tue Jan 11, 2022 16:57   
+/////////////////////////////////////////////////
+> Processing time: 0m8s
+
+/////////////////////////////////////////////////
+            Tue Jan 11, 2022 16:58   
+/////////////////////////////////////////////////
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Tue Jan 11, 2022 16:59   
+/////////////////////////////////////////////////
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Tue Jan 11, 2022 17:00   
+/////////////////////////////////////////////////
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Tue Jan 11, 2022 17:01   
+/////////////////////////////////////////////////
+> Processing time: 0m15s
+
+/////////////////////////////////////////////////
+            Tue Jan 11, 2022 17:05   
+/////////////////////////////////////////////////
+> Processing time: 0m15s
+
+/////////////////////////////////////////////////
+            Tue Jan 11, 2022 17:08   
+/////////////////////////////////////////////////
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Tue Jan 11, 2022 17:15   
+/////////////////////////////////////////////////
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Tue Jan 11, 2022 19:37   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641929865/image1.jpg with /app/images/images/1641929865/image2.jpg.
+  + Squared l2 distance between representations: 0.457
+> Processing time: 0m4s
+
+/////////////////////////////////////////////////
+            Tue Jan 11, 2022 19:38   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641929885/image1.jpg with /app/images/images/1641929885/image2.jpg.
+  + Squared l2 distance between representations: 0.415
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:04   
+/////////////////////////////////////////////////
+> Processing time: 0m7s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:05   
+/////////////////////////////////////////////////
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:07   
+/////////////////////////////////////////////////
+> Processing time: 0m13s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:10   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641996637/image1.jpg with /app/images/images/1641996637/image2.jpg.
+  + Squared l2 distance between representations: 0.451
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:18   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997087/image1.jpg with /app/images/images/1641997087/image2.jpg.
+  + Squared l2 distance between representations: 0.653
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:18   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997125/image1.jpg with /app/images/images/1641997125/image2.jpg.
+  + Squared l2 distance between representations: 0.548
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:20   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997208/image1.jpg with /app/images/images/1641997208/image2.jpg.
+  + Squared l2 distance between representations: 0.452
+> Processing time: 0m14s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:21   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997290/image1.jpg with /app/images/images/1641997290/image2.jpg.
+  + Squared l2 distance between representations: 0.384
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:22   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997333/image1.jpg with /app/images/images/1641997333/image2.jpg.
+  + Squared l2 distance between representations: 0.966
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:22   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997366/image1.jpg with /app/images/images/1641997366/image2.jpg.
+  + Squared l2 distance between representations: 0.935
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:23   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997435/image1.jpg with /app/images/images/1641997435/image2.jpg.
+  + Squared l2 distance between representations: 0.458
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:24   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997472/image1.jpg with /app/images/images/1641997472/image2.jpg.
+  + Squared l2 distance between representations: 0.752
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:25   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997515/image1.jpg with /app/images/images/1641997515/image2.jpg.
+  + Squared l2 distance between representations: 0.460
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:25   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997545/image1.jpg with /app/images/images/1641997545/image2.jpg.
+  + Squared l2 distance between representations: 0.980
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:26   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997584/image1.jpg with /app/images/images/1641997584/image2.jpg.
+  + Squared l2 distance between representations: 0.872
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:26   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997615/image1.jpg with /app/images/images/1641997615/image2.jpg.
+  + Squared l2 distance between representations: 0.892
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:27   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997633/image1.jpg with /app/images/images/1641997633/image2.jpg.
+  + Squared l2 distance between representations: 0.992
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:27   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997655/image1.jpg with /app/images/images/1641997655/image2.jpg.
+  + Squared l2 distance between representations: 0.881
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:29   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997753/image1.jpg with /app/images/images/1641997753/image2.jpg.
+  + Squared l2 distance between representations: 0.904
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:30   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997824/image1.jpg with /app/images/images/1641997824/image2.jpg.
+  + Squared l2 distance between representations: 1.607
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:30   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997850/image1.jpg with /app/images/images/1641997850/image2.jpg.
+  + Squared l2 distance between representations: 2.009
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:32   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997937/image1.jpg with /app/images/images/1641997937/image2.jpg.
+  + Squared l2 distance between representations: 0.510
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:32   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997956/image1.jpg with /app/images/images/1641997956/image2.jpg.
+  + Squared l2 distance between representations: 1.048
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:33   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641997985/image1.jpg with /app/images/images/1641997985/image2.jpg.
+  + Squared l2 distance between representations: 0.566
+> Processing time: 0m3s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:33   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641998017/image1.jpg with /app/images/images/1641998017/image2.jpg.
+  + Squared l2 distance between representations: 1.142
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:33   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641998036/image1.jpg with /app/images/images/1641998036/image2.jpg.
+  + Squared l2 distance between representations: 0.720
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:34   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641998053/image1.jpg with /app/images/images/1641998053/image2.jpg.
+  + Squared l2 distance between representations: 0.779
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:34   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641998069/image1.jpg with /app/images/images/1641998069/image2.jpg.
+  + Squared l2 distance between representations: 0.597
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:34   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641998091/image1.jpg with /app/images/images/1641998091/image2.jpg.
+  + Squared l2 distance between representations: 0.962
+> Processing time: 0m2s
+
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 14:35   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1641998108/image1.jpg with /app/images/images/1641998108/image2.jpg.
+  + Squared l2 distance between representations: 0.503
+> Processing time: 0m3s
+

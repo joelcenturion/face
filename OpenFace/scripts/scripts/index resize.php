@@ -5,7 +5,23 @@
   //   }
 	// }
 
-function portrait_image($file){
+function resize_image($file){	
+	$src = portrait($file);
+	
+	$width = imagesx($src);
+	$height = imagesy($src);
+	$r = $width/$height;
+	$new_height = 180;
+	$new_width = round($r*$new_height);
+	
+	$dst = imagecreatetruecolor($new_width, $new_height);
+	imagecopyresampled($dst, $src, 0, 0, 0, 0, $new_width, $new_height, $width, $height);
+	
+	imagejpeg($dst, $file, 100);
+
+}
+
+function portrait($file){
 	$info = getimagesize($file);
 	
 	if ($info['mime'] == 'image/jpeg' || $info['mime'] == 'image/jpg')
@@ -31,13 +47,7 @@ function portrait_image($file){
 		default;
 	}
 	
-	imagejpeg($src, $file, 100);
-}
-
-function remove_dir($f1, $f2, $newFolder){
-	unlink($f1);
-	unlink($f2);
-	rmdir($newFolder);
+	return $src;
 }
 
 $valid_passwords = array ("admin" => "1-bypersoft.");
@@ -58,7 +68,6 @@ $rootDir = '/app';
 $logs = '';
 
 $dir = $rootDir.'/images/';
-
 	$json = file_get_contents('php://input');
     $data = json_decode($json);
 		if(empty($data)){
@@ -83,10 +92,11 @@ $img2 =  fopen($img2_file, "w+");
 fwrite($img1, base64_decode($img1_base64));
 fwrite($img2, base64_decode($img2_base64));
 
-portrait_image($img2_file);
-
+// compress($img2_file, $img2_file, 70);
+resize_image($img2_file);
 fclose($img1);
 fclose($img2);
+
 $f1 = $img1_file;
 $f2 = $img2_file;
 
@@ -412,6 +422,8 @@ if(isset($_GET['debug'])){
 	return;
 }
 //remove folders
-remove_dir($f1, $f2, $newFolder);
+// unlink($f1);
+// unlink($f2);
+// rmdir($newFolder);
 //response
 echo json_encode($finalArr);

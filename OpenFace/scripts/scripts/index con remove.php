@@ -1,44 +1,4 @@
 <?php 
-// foreach ($exif as $clave => $sección) {
-  //   foreach ($sección as $nombre => $valor) {
-  //       echo "\n$clave.$nombre: $valor<br />\n";
-  //   }
-	// }
-
-function portrait_image($file){
-	$info = getimagesize($file);
-	
-	if ($info['mime'] == 'image/jpeg' || $info['mime'] == 'image/jpg')
-			{$src = imagecreatefromjpeg($file);}
-	elseif ($info['mime'] == 'image/gif') 
-			{$src = imagecreatefromgif($file);}
-	elseif ($info['mime'] == 'image/png') 
-			{$src = imagecreatefromjpeg($file);}
-			
-	$exif = exif_read_data($file);
-	$orientation = $exif['Orientation'];
-	
-	switch ($orientation){
-		case 3:
-			$src = imagerotate($src, 180, 0);
-			break;
-		case 6:
-			$src = imagerotate($src, -90, 0);
-			break;
-		case 8:
-			$src = imagerotate($src, 90, 0);
-			break;
-		default;
-	}
-	
-	imagejpeg($src, $file, 100);
-}
-
-function remove_dir($f1, $f2, $newFolder){
-	unlink($f1);
-	unlink($f2);
-	rmdir($newFolder);
-}
 
 $valid_passwords = array ("admin" => "1-bypersoft.");
 $valid_users = array_keys($valid_passwords);
@@ -54,10 +14,12 @@ if (!$validated) {
   die ("Not authorized");
 }
 
+
 $rootDir = '/app';
 $logs = '';
 
 $dir = $rootDir.'/images/';
+
 
 	$json = file_get_contents('php://input');
     $data = json_decode($json);
@@ -69,7 +31,8 @@ $dir = $rootDir.'/images/';
 		$random = time();
 		$newFolder = "$img_path/$random";
 		mkdir($newFolder);
-
+		
+		
 		
 $img1_base64 = $data->image1;
 $img2_base64 = $data->image2;
@@ -83,10 +46,9 @@ $img2 =  fopen($img2_file, "w+");
 fwrite($img1, base64_decode($img1_base64));
 fwrite($img2, base64_decode($img2_base64));
 
-portrait_image($img2_file);
-
 fclose($img1);
 fclose($img2);
+
 $f1 = $img1_file;
 $f2 = $img2_file;
 
@@ -412,6 +374,11 @@ if(isset($_GET['debug'])){
 	return;
 }
 //remove folders
-remove_dir($f1, $f2, $newFolder);
+unlink($f1);
+unlink($f2);
+rmdir($newFolder);
 //response
 echo json_encode($finalArr);
+
+// unlink('/app/images/images/image1.jpg');
+// unlink('/app/images/images/image2.jpg');
