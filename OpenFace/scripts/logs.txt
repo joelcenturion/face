@@ -2869,3 +2869,10 @@ Comparing /app/images/images/1641998108/image1.jpg with /app/images/images/16419
   + Squared l2 distance between representations: 0.503
 > Processing time: 0m3s
 
+/////////////////////////////////////////////////
+            Wed Jan 12, 2022 18:49   
+/////////////////////////////////////////////////
+Comparing /app/images/images/1642013340/image1.jpg with /app/images/images/1642013340/image2.jpg.
+  + Squared l2 distance between representations: 0.452
+> Processing time: 0m14s
+
